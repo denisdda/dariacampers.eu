@@ -9,3 +9,15 @@
 {
     transform: scale(1.5);
 }
+
+.nrtel
+{
+    color: white;
+}
+
+.contact-bar
+{
+    height: 20px;
+    width: 100%;
+    color: #232d39!important;
+}
