@@ -205,6 +205,14 @@ header
   transition: all .5s ease 0s;
 }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .header-area { height: 100px; }}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .header-area.header-sticky { height: 100px; }}
+
 .header-area .main-nav {
   min-height: 100px;
   background: transparent;
@@ -412,7 +420,7 @@ header
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
