@@ -263,7 +263,9 @@
             </div>
         </div>
         <br>
-        <div id="google-reviews"></div>
+        <div class="container">
+          <div id="google-reviews"></div>
+        </div>
         <br>
         <div class="main-button text-center">
             <a href="https://g.page/DariaCampers/review?rc" style="font-size: 17px;">Mai multe review-uri</a>
@@ -277,8 +279,8 @@
           $("#google-reviews").googlePlaces({
             placeId: 'ChIJOy8DfUBLskARpc3Lol28RIM' //Find placeID @: https://developers.google.com/places/place-id
               , render: ['reviews']
-              , min_rating: 4
-              , max_rows:5
+              , min_rating: 2
+              , max_rows:3
           });
         });</script> </div>
     </section>
