@@ -43,6 +43,11 @@ and (max-device-width : 760px){ .nrtel { color: #232d39; }}
     color: white;
 }
 
+.text-fontblack
+{
+    color: #232d39;
+}
+
 .ab
 {
     font-style: normal;
