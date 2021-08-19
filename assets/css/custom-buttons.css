@@ -35,6 +35,11 @@ and (max-device-width : 760px){ .nrtel { color: #232d39; }}
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+
+
+.text-fontwhite
+{
     color: white;
 }
 
