@@ -54,13 +54,13 @@ and (max-device-width : 760px){ .nrtel { color: #232d39; }}
     color: #008cff;
 }
 
-.yout
+.youtuberow
 {
-    margin-left: -40px;
+    margin-left: 265px;
 }
 
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 760px){ .yout { margin-left: 40px; }}
+and (max-device-width : 760px){ .youtuberow { margin-left: auto }}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
