@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.dariacampers.eu/sitemap.xml
